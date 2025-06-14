@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #100; /* Black background */
+  color: #f0f0f0;          /* Light gray text */
+}
+
+header {
+  background-color: darkblue;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+section div {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.project {
+  background-color: #1a1a1a;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #00ffff;
+  color: #000;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #00cccc;
+}
+
+#formMessage {
+  margin-top: 1rem;
+  color: #00ff99;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  color: white;
+  border-top: 1px solid #333;
+  margin-top: 2rem;
+}
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark-mode nav {
+    background-color: #222;
+}
+
+body.dark-mode nav ul li a, body.dark-mode nav ul li button {
+    color: #ccc;
+}
+
+body.dark-mode section {
+    background-color: #333;
+}.
